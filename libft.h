@@ -6,7 +6,7 @@
 /*   By: ilselbon <ilselbon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 15:29:09 by ilselbon          #+#    #+#             */
-/*   Updated: 2023/02/18 18:12:42 by ilselbon         ###   ########.fr       */
+/*   Updated: 2023/02/18 18:18:45 by ilselbon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define LIBFT_H
 # include <stdlib.h>
 # include <unistd.h>
-# include "ft_printf/ft_printf.h"
+# include "./ft_printf/ft_printf.h"
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);

@@ -50,12 +50,14 @@ all: $(NAME)
 
 $(NAME) : $(OBJS)
 	make -C ft_printf
-	$(AR) $(NAME)  $(OBJS)
+	$(AR) $(NAME) $(OBJS)
 
-clean : 
+clean :
+	make clean -C ft_printf
 	$(RM) *.o get_next_line/*.o
 
 fclean :
+	make fclean -C ft_printf
 	$(RM) $(NAME) *.o get_next_line/*.o
 
 re : fclean all
